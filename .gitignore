@@ -2,12 +2,9 @@ draft/
 
 __pycache__/
 
-/test.zip
+*.ppt
+*.pptx
+*.zip
 
-/src/Haruhi2-Dev/data/character_in_zip
-
-/src/novel_collecting
-
-/src/Prophet-Andrew-Ng
-
-# /test/Charles-dev
+# 原项目的相关资源
+/examples
