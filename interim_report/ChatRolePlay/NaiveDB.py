@@ -29,41 +29,7 @@ class NaiveDB(BaseDB):
         # 计算每个向量的L2范数
         self.norms = [sqrt(sum([x**2 for x in vec])) for vec in self.vectors]
 
-    # def search(self, query_vector , n_results):
-
-    #     if(self.verbose):
-    #         print("call search")
-
-    #     if len(self.norms) != len(self.vectors):
-    #         self.recompute_norm()
-
-    #     # self.vectors 是list of list of float
-    #     # self.norms 存储了每个vector的l2 norm
-    #     # query_vector是list of float
-    #     # 依次计算query_vector和vectors中每个vector的cosine similarity（注意vector的norm已经在self.norm中计算)
-    #     # 并且给出最相近的至多n_results个结果
-    #     # 把对应序号的documents 用list of string的形式return
-    #     # TODO 补全这部分代码
-
-    #     # 计算查询向量的范数
-    #     query_norm = sqrt(sum([x**2 for x in query_vector]))
-
-    #     # 计算余弦相似度
-    #     similarities = []
-    #     for vec, norm in zip(self.vectors, self.norms):
-    #         dot_product = sum(q * v for q, v in zip(query_vector, vec))
-    #         if query_norm < 1e-20:
-    #             continue
-    #         cosine_similarity = dot_product / (query_norm * norm)
-    #         similarities.append(cosine_similarity)
-
-    #     # 获取最相似的n_results个结果
-    #     top_indices = sorted(range(len(similarities)), key=lambda i: similarities[i], reverse=True)[:n_results]
-    #     top_documents = [self.documents[i] for i in top_indices]
-    #     return top_documents
-
     # NOTE 优化代码：利用numpy加速计算
-    # TODO 如果数据更大，考虑近似搜索算法（如 FAISS 或 Annoy）
     def search(self, query_vector, n_results):
         if self.verbose:
             print("call search")
@@ -86,11 +52,27 @@ class NaiveDB(BaseDB):
         dot_products = np.dot(vectors, query_vector)
         cosine_similarities = dot_products / (norms * query_norm)
 
-        # 找到相似度最高的 n_results 个索引
-        top_indices = np.argsort(cosine_similarities)[-n_results:][::-1]
+        # 获取相似度和索引对，按相似度降序排序
+        sorted_indices = np.argsort(cosine_similarities)[::-1]
+        sorted_similarities = cosine_similarities[sorted_indices]
 
-        # 根据索引提取对应的文档
-        top_documents = [self.documents[i] for i in top_indices]
+        # 去重并提取前 n_results，考虑相似度相同的情况
+        unique_similarities = set()  # 用于存储已处理过的相似度（重复文本）
+        top_documents = []
+
+        for idx, similarity in zip(sorted_indices, sorted_similarities):
+            similarity = round(similarity, 4)  # 截取一定小数位数，便于比较
+            if similarity in unique_similarities:
+                continue  # 如果相似度重复，跳过
+            unique_similarities.add(similarity)  # 记录相似度
+
+            document = self.documents[idx]
+            top_documents.append(document)
+
+            if len(top_documents) == n_results:
+                break
+
+        # 返回前 n_results 的文档和相似度
         return top_documents
 
     def init_from_docs(self, vectors, documents):

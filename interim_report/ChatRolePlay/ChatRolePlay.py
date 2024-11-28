@@ -556,3 +556,7 @@ class ChatRolePlay:
                 self.llm.user_message(query)
             if response:
                 self.llm.ai_message(response)
+
+    def clear_history(self):
+        """清除聊天记录"""
+        self.dialogue_history.clear()
