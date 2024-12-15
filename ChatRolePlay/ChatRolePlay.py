@@ -192,5 +192,8 @@ class ChatRolePlay:
         return response.choices[0].message.content.strip()
     
     def _clear_history(self):
-        """清除聊天记录"""
         self.chat_history = []
+
+    def _display_history(self):
+        for dialogue in self.chat_history:
+            print(dialogue)
