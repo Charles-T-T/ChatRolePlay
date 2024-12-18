@@ -1,2 +1,7 @@
 # 忽略python缓存
 __pycache__/
+NovelToRole/extract/*
+NovelToRole/novel/*
+NovelToRole/reorganized/*
+NovelToRole/role/*
+data/banaijian-data
