@@ -86,7 +86,6 @@ class ChatRolePlay:
         Returns:
             list: 整合后待发送的messages
         """
-        # messages = [{"role": "user", "content": self.base_prompt}]
         messages = []
         sys_prompt = self.base_prompt
 
@@ -99,9 +98,6 @@ class ChatRolePlay:
         self.refresh_history(available_tokens)
 
         # 将聊天记录整合到待发送消息
-        # messages.append(
-        #     {"role": "system", "content": f"{HISTORY_PROMPT}{self.chat_history}"}
-        # )
         sys_prompt += HISTORY_PROMPT
         sys_prompt += "<history>\n"
         for dialogue in self.chat_history:
@@ -112,7 +108,6 @@ class ChatRolePlay:
         # 将故事背景整合到待发送消息
         if self.story_db:
             bg = self.story_db.get_related_info(user_query)
-            # messages.append({"role": "system", "content": f"{STORY_BG_PROMPT}{bg}"})
             sys_prompt += STORY_BG_PROMPT
             sys_prompt += "<story>\n"
             sys_prompt += bg

@@ -101,7 +101,7 @@ class KnowledgeDB:
                             self.docs.append(
                                 Document(
                                     page_content=data["text"],
-                                    metadata={"luotuo_openai": data["luotuo_openai"]},
+                                    # metadata={"luotuo_openai": data["luotuo_openai"]},
                                 )
                             )
             else:
