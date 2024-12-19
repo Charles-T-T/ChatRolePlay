@@ -7,7 +7,8 @@ api_keys = {
     "doubao": os.getenv("ARK_API_KEY", "your_api_key"),
 }
 
-models = {"openai": "gpt-4o", "doubao": "ep-20241214144520-56skd"}
+models = {"openai": "gpt-4o", "doubao": "ep-20241216114938-mvdhd"}
+
 
 def get_client(llm: str):
     """获取llm实例"""
