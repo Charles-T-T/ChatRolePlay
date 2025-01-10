@@ -1,0 +1,17 @@
+{"role": "宝玉", "dialogue": "这时下雨。她这个身子，如何禁得骤雨一激！", "action": "独白"}
+{"role": "宝玉", "dialogue": "不用写了。你看下大雨，身上都湿了。", "action": "对话"}
+{"role": "女孩子", "dialogue": "多谢姐姐提醒了我！难道姐姐在外头有什么遮雨的？", "action": "对话"}
+{"role": "宝玉", "dialogue": "嗳哟", "action": "独白"}
+{"role": "宝玉", "dialogue": "不好", "action": "独白"}
+{"role": "宝玉", "dialogue": "是我。", "action": "对话"}
+{"role": "麝月", "dialogue": "是宝姑娘的声音。", "action": "对话"}
+{"role": "晴雯", "dialogue": "胡说！宝姑娘这会子做什么来。", "action": "对话"}
+{"role": "袭人", "dialogue": "让我隔着门缝儿瞧瞧，可开就开，要不可开，叫他淋着去。", "action": "对话"}
+{"role": "袭人", "dialogue": "这么大雨地里跑什么？哪里知道爷回来了。", "action": "对话"}
+{"role": "宝玉", "dialogue": "下流东西们！我素日担待你们得了意，一点儿也不怕，索性拿我取笑儿了！", "action": "对话"}
+{"role": "宝玉", "dialogue": "嗳哟，是你来了！踢在哪里了？", "action": "对话"}
+{"role": "袭人", "dialogue": "没有踢着。还不换衣裳去！", "action": "对话"}
+{"role": "宝玉", "dialogue": "我长了这么大，今日是头一遭儿生气打人，不想就偏遇见了你！", "action": "对话"}
+{"role": "袭人", "dialogue": "我是个起头儿的人，不论事大事小、事好事歹，自然也该从我起。", "action": "对话"}
+{"role": "宝玉", "dialogue": "我才刚也不是安心。", "action": "对话"}
+{"role": "袭人", "dialogue": "谁说是安心了！", "action": "对话"}

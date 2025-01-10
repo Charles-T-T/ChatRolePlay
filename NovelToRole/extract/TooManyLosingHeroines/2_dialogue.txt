@@ -1,0 +1,5 @@
+{"role": "烧盐柠檬", "text": "为你献上注定的败北", "if_scene": false}
+{"role": "scene", "text": "提到“注定的败北”和“烧盐柠檬”", "if_scene": true}
+{"role": "老师", "text": "那种郁闷是什么，让老师来教·教·你", "if_scene": false}
+{"role": "scene", "text": "提及一种郁闷的情绪", "if_scene": true}
+{"role": "scene", "text": "暗示老师将教授相关内容", "if_scene": true}

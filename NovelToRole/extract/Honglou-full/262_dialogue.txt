@@ -1,0 +1,17 @@
+{"role": "宝玉", "dialogue": "一日，宝玉因各处游得烦腻，便想起《牡丹亭》曲来", "action": "独白"}
+{"role": "宝玉", "dialogue": "因闻得梨香院的十二个女孩子中有小旦龄官最是唱得好", "action": "独白"}
+{"role": "宝玉", "dialogue": "因着意出角门来找时，只见宝官、玉官都在院内", "action": "独白"}
+{"role": "宝玉", "dialogue": "见宝玉来了，都笑嘻嘻的让坐", "action": "独白"}
+{"role": "宝玉", "dialogue": "因问“龄官在那里？”", "action": "对话"}
+{"role": "众人", "dialogue": "在她房里呢", "action": "对话"}
+{"role": "宝玉", "dialogue": "忙至她房内，只见龄官独自倒在枕上", "action": "独白"}
+{"role": "宝玉", "dialogue": "见他进来，文风不动", "action": "独白"}
+{"role": "宝玉", "dialogue": "因进前来身旁坐下，又陪笑央她起来唱“袅晴丝”一套", "action": "独白"}
+{"role": "龄官", "dialogue": "嗓子哑了。前儿娘娘传进我们去，我还没有唱呢", "action": "对话"}
+{"role": "宝玉", "dialogue": "再一细看，原来就是那日蔷薇花下划“蔷”字那一个", "action": "独白"}
+{"role": "宝玉", "dialogue": "从来未经过这番被人弃厌，自己便讪讪的红了脸，只得出来了", "action": "独白"}
+{"role": "宝官", "dialogue": "因问其所以", "action": "对话"}
+{"role": "宝玉", "dialogue": "便说了出来", "action": "对话"}
+{"role": "宝官", "dialogue": "只略等一等，蔷二爷来了叫她唱，是必唱的", "action": "对话"}
+{"role": "宝玉", "dialogue": "因问：“蔷哥儿哪去了？”", "action": "对话"}
+{"role": "宝官", "dialogue": "才出去了，一定还是龄官要什么，他去变弄去了", "action": "对话"}

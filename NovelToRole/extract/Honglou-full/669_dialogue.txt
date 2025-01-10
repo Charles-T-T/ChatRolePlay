@@ -1,0 +1,16 @@
+{"role": "门上的人", "dialogue": "有两个内相在外，要见二位老爷呢", "action": "对话"}
+{"role": "贾赦", "dialogue": "请进来", "action": "对话"}
+{"role": "老公", "dialogue": "前日这里贵妃娘娘有些欠安。昨日奉过旨意，宣召亲丁四人，进里头探问", "action": "对话"}
+{"role": "老公", "dialogue": "许各带丫头一人，余皆不用。亲丁男人只许在宫门外递个职名，请安听信，不得擅入", "action": "对话"}
+{"role": "老公", "dialogue": "准于明日辰巳时进去，申酉时出来", "action": "对话"}
+{"role": "贾政", "dialogue": "站着听了旨意，复又坐下，让老公吃茶毕", "action": "动作"}
+{"role": "贾母", "dialogue": "亲丁四人，自然是我和你们两位太太了。那一个人呢？", "action": "对话"}
+{"role": "贾母", "dialogue": "必得是凤姐儿，她诸事有照应", "action": "对话"}
+{"role": "贾赦", "dialogue": "答应了出来，因派了贾琏、贾蓉看家外", "action": "动作"}
+{"role": "贾赦", "dialogue": "吩咐家人预备四乘绿轿，十余辆大车，明儿黎明伺候", "action": "对话"}
+{"role": "贾母", "dialogue": "我知道，你们去罢", "action": "对话"}
+{"role": "邢夫人", "dialogue": "说了一会子元妃的病，又说了些闲话", "action": "对话"}
+{"role": "林之孝", "dialogue": "轿车俱已齐备，在门外伺候着呢", "action": "对话"}
+{"role": "贾赦", "dialogue": "大家用了早饭", "action": "对话"}
+{"role": "凤姐", "dialogue": "先扶老太太出来", "action": "动作"}
+{"role": "贾琏", "dialogue": "在家中看家", "action": "动作"}

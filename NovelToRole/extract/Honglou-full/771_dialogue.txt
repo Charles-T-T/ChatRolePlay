@@ -1,0 +1,9 @@
+{"role": "黛玉", "dialogue": "宝玉，你为什么病了？", "action": "对话"}
+{"role": "宝玉", "dialogue": "我为林姑娘病了。", "action": "对话"}
+{"role": "袭人", "dialogue": "姑娘才好了，我叫秋纹妹妹同着你搀回姑娘，歇歇去罢。", "action": "对话"}
+{"role": "秋纹", "dialogue": "你和紫鹃姐姐送林姑娘去罢，你可别混说话。", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘，回家去歇歇罢。", "action": "对话"}
+{"role": "黛玉", "dialogue": "可不是？我这就是回去的时候儿了。", "action": "对话"}
+{"role": "紫鹃", "dialogue": "阿弥陀佛，可到了家了！", "action": "对话"}
+{"role": "黛玉", "dialogue": "哇！", "action": "动作"}
+{"role": "黛玉", "dialogue": "我那里就能够死呢！", "action": "对话"}

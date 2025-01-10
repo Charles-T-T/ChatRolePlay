@@ -1,0 +1,16 @@
+{"role": "袭人", "dialogue": "今日天气很冷，早晚宁使暖些", "action": "对话"}
+{"role": "袭人", "dialogue": "天气凉，二爷要换时，好生预备着", "action": "对话"}
+{"role": "茗烟", "dialogue": "二爷，天气冷了，再添些衣服罢", "action": "对话"}
+{"role": "宝玉", "dialogue": "怎么拿这一件来！是谁给你的？", "action": "对话"}
+{"role": "茗烟", "dialogue": "是里头姑娘们包出来的", "action": "对话"}
+{"role": "宝玉", "dialogue": "我身上不大冷，且不穿呢，包上罢", "action": "对话"}
+{"role": "茗烟", "dialogue": "二爷穿上罢，着了凉，又是奴才的不是了。二爷只当疼奴才罢", "action": "对话"}
+{"role": "宝玉", "dialogue": "我不吃了，心里不舒服。你们吃去罢", "action": "对话"}
+{"role": "袭人", "dialogue": "那么着，你也该把这件衣服换下来了，那个东西那里禁得住揉搓", "action": "对话"}
+{"role": "宝玉", "dialogue": "不用换", "action": "对话"}
+{"role": "宝玉", "dialogue": "那么着，你就收拾起来，给我包好了。我也总不穿他了", "action": "对话"}
+{"role": "宝玉", "dialogue": "包这个的包袱呢？", "action": "对话"}
+{"role": "袭人", "dialogue": "二爷怎么今日这样勤谨起来了？", "action": "对话"}
+{"role": "袭人", "dialogue": "你不吃饭，喝一口粥儿罢。别净饿着，看仔细饿上虚火来，那又是我们的累赘了", "action": "对话"}
+{"role": "宝玉", "dialogue": "不大饿，强吃了倒不受用", "action": "对话"}
+{"role": "袭人", "dialogue": "既这么着，就索性早些歇着罢", "action": "对话"}

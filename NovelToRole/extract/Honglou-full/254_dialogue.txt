@@ -1,0 +1,13 @@
+{"role": "丫头", "dialogue": "傅二爷家的两个嬷嬷来请安，来见二爷", "action": "对话"}
+{"role": "宝玉", "dialogue": "便知是通判傅试家的嬷嬷来了", "action": "独白"}
+{"role": "宝玉", "dialogue": "今日却如何又命这两个婆子过来？", "action": "独白"}
+{"role": "宝玉", "dialogue": "只因那宝玉闻得傅试有个妹子，名唤傅秋芳", "action": "独白"}
+{"role": "宝玉", "dialogue": "不命她们进来，恐薄了傅秋芳，因此连忙命让进来", "action": "独白"}
+{"role": "宝玉", "dialogue": "怎奈那些豪门贵族又嫌他穷酸，根基浅薄，不肯求配", "action": "独白"}
+{"role": "宝玉", "dialogue": "烫了哪里了？疼不疼？", "action": "对话"}
+{"role": "玉钏儿", "dialogue": "这是怎么了！", "action": "对话"}
+{"role": "玉钏儿", "dialogue": "你自己烫了，只管问我", "action": "对话"}
+{"role": "婆子", "dialogue": "怪道有人说他们家宝玉是外像好里头糊涂，中看不中吃的", "action": "对话"}
+{"role": "婆子", "dialogue": "我前一回来，听见他家里许多人抱怨，千真万真的有些呆气", "action": "对话"}
+{"role": "婆子", "dialogue": "你说可笑不可笑？", "action": "对话"}
+{"role": "婆子", "dialogue": "且是连一点刚性也没有，连那些毛丫头的气都受得", "action": "对话"}

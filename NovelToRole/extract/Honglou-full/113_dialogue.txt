@@ -1,0 +1,17 @@
+{"role": "贾政", "dialogue": "更不好", "action": "说"}
+{"role": "贾政", "dialogue": "诸公题以何名？", "action": "问"}
+{"role": "贾政", "dialogue": "又落实了，而且陈旧", "action": "说"}
+{"role": "贾政", "dialogue": "可惜不得入了", "action": "说"}
+{"role": "贾政", "dialogue": "此处这所房子，无味得很", "action": "说"}
+{"role": "贾政", "dialogue": "有趣！只是不大认识", "action": "说"}
+{"role": "贾政", "dialogue": "薜荔藤萝不得如此异香", "action": "说"}
+{"role": "贾政", "dialogue": "谁问你来！", "action": "喝"}
+{"role": "贾政", "dialogue": "此轩中煮茶操琴，亦不必再焚名香矣！", "action": "叹"}
+{"role": "贾政", "dialogue": "也只好用这四字。其联若何？", "action": "问"}
+{"role": "宝玉", "dialogue": "这越发过露了。‘秦人旧舍’说避乱之意，如何使得！莫若‘蓼汀花溆’四字", "action": "说"}
+{"role": "宝玉", "dialogue": "果然不是。这些之中也有藤萝薜荔；那香的是杜若蘅芜，那一种大约是茞兰，这一种大约是清葛，那一种是金簦草，这一种是玉蕗藤，红的自然是紫芸，绿的定是青芷", "action": "说"}
+{"role": "众人", "dialogue": "好景，好景！", "action": "说"}
+{"role": "众人", "dialogue": "再不必拟了，恰恰乎是‘武陵源’三个字", "action": "说"}
+{"role": "众人", "dialogue": "不然就用‘秦人旧舍’四字也罢了", "action": "说"}
+{"role": "众人", "dialogue": "再莫若‘兰风蕙露’贴切了", "action": "说"}
+{"role": "一人", "dialogue": "我倒想了一对，大家批削改正", "action": "说"}

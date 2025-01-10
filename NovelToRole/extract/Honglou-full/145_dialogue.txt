@@ -1,0 +1,14 @@
+{"role": "贾琏", "dialogue": "那个贾琏，只离了凤姐便要寻事，独寝了两夜，便十分难熬", "action": "独白"}
+{"role": "贾琏", "dialogue": "因他自小父母替他在外娶了一个媳妇，今年方二十来往年纪，生得有几分人才", "action": "独白"}
+{"role": "贾琏", "dialogue": "那多姑娘儿也曾有意于贾琏，只恨没空", "action": "独白"}
+{"role": "贾琏", "dialogue": "惹得贾琏似饥鼠一般，少不得和心腹的小厮们计议", "action": "独白"}
+{"role": "贾琏", "dialogue": "是夜二鼓人定，多浑虫醉昏在炕，贾琏便溜了来相会", "action": "独白"}
+{"role": "贾琏", "dialogue": "你就是娘娘，我哪里管什么娘娘！", "action": "对话"}
+{"role": "贾琏", "dialogue": "一面大动，一面喘吁吁答道", "action": "独白"}
+{"role": "贾琏", "dialogue": "此后遂成相契", "action": "独白"}
+{"role": "凤姐", "dialogue": "次日早起，凤姐往上屋去后", "action": "独白"}
+{"role": "平儿", "dialogue": "这是什么？", "action": "对话"}
+{"role": "贾琏", "dialogue": "着了忙，抢上来要夺", "action": "独白"}
+{"role": "贾琏", "dialogue": "小蹄子，你不趁早拿出来，我把你膀子撅折了", "action": "对话"}
+{"role": "平儿", "dialogue": "你就是没良心的。我好意瞒着她来问你", "action": "对话"}
+{"role": "贾琏", "dialogue": "好人，赏我罢！我再不赌狠了", "action": "对话"}

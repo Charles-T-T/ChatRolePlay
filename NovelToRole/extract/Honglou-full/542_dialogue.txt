@@ -1,0 +1,12 @@
+{"role": "贾母", "dialogue": "这是谁家的孩子？好可怜见的", "action": "对话"}
+{"role": "凤姐", "dialogue": "老祖宗倒细细的看看，好不好？", "action": "对话"}
+{"role": "凤姐", "dialogue": "这是太婆婆，快磕头", "action": "对话"}
+{"role": "凤姐", "dialogue": "老祖宗且别问，只说比我俊不俊", "action": "对话"}
+{"role": "贾母", "dialogue": "你姓什么？今年十几了？", "action": "对话"}
+{"role": "贾母", "dialogue": "把那孩子拉过来，我瞧瞧肉皮儿", "action": "对话"}
+{"role": "贾母", "dialogue": "更是个齐全孩子，我看比你俊些", "action": "对话"}
+{"role": "贾母", "dialogue": "这有什么不是？既你这样贤良，很好。只是一年后方可圆得房", "action": "对话"}
+{"role": "凤姐", "dialogue": "着两个女人一同带去见太太们，说是老祖宗的主意", "action": "对话"}
+{"role": "王夫人", "dialogue": "岂有不乐之理", "action": "对话"}
+{"role": "凤姐", "dialogue": "亲原是你家定的，你只要亲事，官必还断给你", "action": "对话"}
+{"role": "察院", "dialogue": "张华所欠贾宅之银，令其限内按数交还，其所定之亲，仍令其有力时娶回", "action": "对话"}

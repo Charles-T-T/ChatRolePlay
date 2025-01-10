@@ -1,0 +1,12 @@
+{"role": "妙玉", "dialogue": "如何忽作变征之声？音韵可裂金石矣。只是太过。", "action": "对话"}
+{"role": "宝玉", "dialogue": "太过便怎么？", "action": "对话"}
+{"role": "妙玉", "dialogue": "恐不能持久。", "action": "对话"}
+{"role": "妙玉", "dialogue": "日后自知，你也不必多说。", "action": "对话"}
+{"role": "宝玉", "dialogue": "怎么样？", "action": "对话"}
+{"role": "妙玉", "dialogue": "我是谁？", "action": "对话"}
+{"role": "妙玉", "dialogue": "原来是你。", "action": "对话"}
+{"role": "妙玉", "dialogue": "你是我的妈呀，你不救我，我不得活了！", "action": "对话"}
+{"role": "女尼", "dialogue": "是我。", "action": "对话"}
+{"role": "女尼", "dialogue": "这里就是你住的房子。", "action": "对话"}
+{"role": "道婆", "dialogue": "快醒转来罢。", "action": "对话"}
+{"role": "道婆", "dialogue": "是了。大观园中西南角上本来没有人住，阴气是有的。", "action": "对话"}

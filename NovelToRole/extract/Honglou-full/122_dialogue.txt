@@ -1,0 +1,20 @@
+{"role": "贾妃", "dialogue": "贾妃见宝、林二人亦发比别姊妹不同，真是姣花软玉一般", "action": "观察"}
+{"role": "贾妃", "dialogue": "宝玉为何不进见？", "action": "提问"}
+{"role": "贾母", "dialogue": "无谕，外男不敢擅入", "action": "解释"}
+{"role": "元妃", "dialogue": "快引进来", "action": "命令"}
+{"role": "元妃", "dialogue": "比先竟长了好些......", "action": "对话"}
+{"role": "尤氏", "dialogue": "筵宴齐备，请贵妃游幸", "action": "提议"}
+{"role": "元妃", "dialogue": "命宝玉导引", "action": "命令"}
+{"role": "贾妃", "dialogue": "以后不可太奢，此皆过分之极", "action": "劝告"}
+{"role": "元妃", "dialogue": "亲搦湘管，择其几处最喜者赐名", "action": "命令"}
+{"role": "元妃", "dialogue": "此一匾一联书于正殿", "action": "说明"}
+{"role": "元妃", "dialogue": "我素乏捷才，且不长于吟咏", "action": "自述"}
+{"role": "元妃", "dialogue": "今夜聊以塞责，不负斯景而已", "action": "自述"}
+{"role": "元妃", "dialogue": "此中‘潇湘馆’、‘蘅芜苑’二处，我所极爱", "action": "自述"}
+{"role": "宝玉", "dialogue": "只得答应了，下来自去构思", "action": "回应"}
+{"role": "探春", "dialogue": "自忖亦难与薛、林争衡", "action": "自述"}
+{"role": "李纨", "dialogue": "勉强凑成一律", "action": "自述"}
+{"role": "贾妃", "dialogue": "先挨次看姊妹们的", "action": "观察"}
+{"role": "迎春", "dialogue": "旷性怡情匾额　迎春园成景备特精奇，奉命羞题额旷怡", "action": "对话"}
+{"role": "探春", "dialogue": "万象争辉匾额　探春名园筑出势巍巍，奉命何惭学浅微！", "action": "对话"}
+{"role": "惜春", "dialogue": "文章造化匾额　惜春山水横拖千里外，楼台高起五云中", "action": "对话"}

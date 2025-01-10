@@ -1,0 +1,17 @@
+{"role": "李纨", "dialogue": "不好了！这人入了迷了", "action": "对话"}
+{"role": "宝钗", "dialogue": "不好了！这人入了迷了", "action": "对话"}
+{"role": "王夫人", "dialogue": "你到底是那里看来的？", "action": "对话"}
+{"role": "宝玉", "dialogue": "太太也不必问，我自有见的地方", "action": "对话"}
+{"role": "王夫人", "dialogue": "你说前儿是玩话，怎么忽然有这首诗？罢了，我知道了，你们叫我怎么样呢。我也没有法儿了，也只得由着你们去罢。但是要等我合上了眼，各自干各自的就完了！", "action": "对话"}
+{"role": "宝钗", "dialogue": "这个心比刀绞更甚，也撑不住，便放声大哭起来", "action": "独白"}
+{"role": "袭人", "dialogue": "我也愿意跟了四姑娘去修行", "action": "对话"}
+{"role": "宝玉", "dialogue": "你也是好心，但是你不能享这个清福的", "action": "对话"}
+{"role": "袭人", "dialogue": "这么说，我是要死的了？", "action": "对话"}
+{"role": "宝玉", "dialogue": "阿弥陀佛！难得，难得。不料你倒先好了", "action": "对话"}
+{"role": "紫鹃", "dialogue": "磕头", "action": "动作"}
+{"role": "惜春", "dialogue": "谢了王夫人", "action": "对话"}
+{"role": "贾政", "dialogue": "心里又烦躁", "action": "独白"}
+{"role": "赖尚荣", "dialogue": "央来人带回，帮着说些好话", "action": "对话"}
+{"role": "赖尚荣", "dialogue": "撂下就走了", "action": "对话"}
+{"role": "赖尚荣", "dialogue": "回明他父亲，叫他设法告假，赎出身来", "action": "对话"}
+{"role": "贾蔷", "dialogue": "明知不能，过了一日，假说王夫人不依的话，回复了", "action": "对话"}

@@ -1,0 +1,17 @@
+{"role": "袭人", "dialogue": "怎么出来了？想来又闷的慌了", "action": "对话"}
+{"role": "宝玉", "dialogue": "我原是心里烦，才找个地方儿静坐坐儿。这会子好了，还要外头走走去呢", "action": "对话"}
+{"role": "宝玉", "dialogue": "林妹妹在家里呢么？", "action": "问"}
+{"role": "紫鹃", "dialogue": "是谁？", "action": "问"}
+{"role": "紫鹃", "dialogue": "原来是宝二爷。姑娘在屋里呢，请二爷到屋里坐着", "action": "对话"}
+{"role": "黛玉", "dialogue": "紫鹃，请二爷屋里坐罢", "action": "对话"}
+{"role": "宝玉", "dialogue": "妹妹做什么呢？", "action": "问"}
+{"role": "黛玉", "dialogue": "请坐。我在这里写经，只剩得两行了，等写完了再说话儿", "action": "对话"}
+{"role": "宝玉", "dialogue": "你别动，只管写", "action": "对话"}
+{"role": "宝玉", "dialogue": "妹妹这幅《斗寒图》可是新挂上的？", "action": "问"}
+{"role": "黛玉", "dialogue": "可不是。昨日她们收拾屋子，我想起来，拿出来叫她们挂上的", "action": "对话"}
+{"role": "宝玉", "dialogue": "是什么出处？", "action": "问"}
+{"role": "黛玉", "dialogue": "眼前熟的很的，还要问人", "action": "对话"}
+{"role": "宝玉", "dialogue": "我一时想不起，妹妹告诉我罢", "action": "对话"}
+{"role": "黛玉", "dialogue": "岂不闻‘青女素娥俱耐冷，月中霜里斗婵娟’", "action": "对话"}
+{"role": "宝玉", "dialogue": "是啊，这个实在新奇雅致，却好此时拿出来挂", "action": "对话"}
+{"role": "宝玉", "dialogue": "妹妹还是这么客气", "action": "对话"}

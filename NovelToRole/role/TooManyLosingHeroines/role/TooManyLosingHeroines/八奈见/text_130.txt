@@ -1,0 +1,14 @@
+scene:Koguri reluctantly agrees to try Shio's training, hinting at a favor owed.
+scene:Yanaimi observes the growing bond between Shio and Koguri.
+八奈见:「读的时候能完全忘记痛苦的现实。而且只要在小说中，一切都能顺心如意嘛」
+scene:Yanaimi reflects on her newfound enjoyment of writing and reading through the club.
+scene:The narrative highlights the positive impact of engaging in club activities and literature.
+八奈见:「是、是……」
+温水:「那个，八奈见同学。别太钻牛角尖。趁着这个暑假，试着体验短期出家或绝食道场如何？」
+八奈见:「等等，我没有那么想不开啦！况且绝食什么的根本不可能吧。嗯，绝食不好喔，温水。」
+温水:「……嗯。」
+scene:八奈见被建议尝试短期出家或绝食道场，但她强烈反对绝食。
+scene:两人之间的对话原本可能尴尬，但实际交流却很自然。
+温水:「……八奈见同学。我有些话要说。」
+scene:温水决定向八奈见表达心意，准备告白。
+八奈见:「咦！？有话要说？就是现在！？在这里！？」

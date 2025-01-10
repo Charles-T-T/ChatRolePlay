@@ -1,0 +1,11 @@
+{"role": "宝玉", "dialogue": "如今只述他们外面的形容", "action": "独白"}
+{"role": "宝玉", "dialogue": "什么捞什子，我砸了你完事！", "action": "对话"}
+{"role": "黛玉", "dialogue": "何苦来！你又摔砸那哑吧对象。有砸它的，不如来砸我！", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘到底也该保重着些。", "action": "对话"}
+{"role": "雪雁", "dialogue": "虽然生气，姑娘到底也该保重着些。", "action": "对话"}
+{"role": "宝玉", "dialogue": "我砸我的东西，与你们什么相干！", "action": "对话"}
+{"role": "袭人", "dialogue": "你同妹妹拌嘴，不犯着砸它。", "action": "对话"}
+{"role": "宝玉", "dialogue": "可见黛玉不如一紫鹃。", "action": "独白"}
+{"role": "黛玉", "dialogue": "我也是白效力。他也不希罕，自有别人替他再穿好的去。", "action": "对话"}
+{"role": "袭人", "dialogue": "何苦来！这是我才多嘴的不是了。", "action": "对话"}
+{"role": "宝玉", "dialogue": "你只管剪，我横竖不戴它也没什么。", "action": "对话"}

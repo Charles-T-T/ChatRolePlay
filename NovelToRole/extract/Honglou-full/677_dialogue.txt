@@ -1,0 +1,16 @@
+{"role": "丫鬟", "dialogue": "姨太太在这里呢", "action": "对话"}
+{"role": "宝玉", "dialogue": "宝玉赶忙进来给薛姨妈请安，过来才给贾母请了晚安", "action": "动作"}
+{"role": "贾母", "dialogue": "你今儿怎么这早晚才散学？", "action": "对话"}
+{"role": "宝玉", "dialogue": "悉把贾政看文章并命作破题的话述了一遍", "action": "动作"}
+{"role": "贾母", "dialogue": "笑容满面", "action": "动作"}
+{"role": "宝玉", "dialogue": "宝姐姐在那里坐着呢？", "action": "对话"}
+{"role": "薛姨妈", "dialogue": "你宝姐姐没过来，家里和香菱作活呢", "action": "对话"}
+{"role": "宝玉", "dialogue": "心中索然，又不好就走", "action": "独白"}
+{"role": "薛姨妈", "dialogue": "宝哥儿呢？", "action": "对话"}
+{"role": "贾母", "dialogue": "宝玉跟着我这边坐罢", "action": "对话"}
+{"role": "宝玉", "dialogue": "头里散学时，李贵传老爷的话，叫吃了饭过去。我赶着要了一碟菜，泡茶吃了一碗饭，就过去了。老太太和姨妈、姐姐们用罢", "action": "对话"}
+{"role": "贾母", "dialogue": "既这么着，凤丫头就过来跟着我。你太太才说他今儿吃斋，叫他们自己吃去罢", "action": "对话"}
+{"role": "王夫人", "dialogue": "你跟着老太太、姨太太吃罢，不用等我，我吃斋呢", "action": "对话"}
+{"role": "凤姐", "dialogue": "告了坐", "action": "动作"}
+{"role": "丫头", "dialogue": "安了杯箸", "action": "动作"}
+{"role": "凤姐", "dialogue": "执壶斟了一巡，才归坐", "action": "动作"}

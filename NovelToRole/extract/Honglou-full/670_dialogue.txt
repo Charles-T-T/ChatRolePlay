@@ -1,0 +1,12 @@
+{"role": "内监", "dialogue": "贾府省亲的太太、奶奶们，着令入宫探问，爷们俱着令内宫门外请安，不得入见", "action": "对话"}
+{"role": "老公", "dialogue": "贾府爷们至此", "action": "对话"}
+{"role": "元妃", "dialogue": "近日身上可好？", "action": "对话"}
+{"role": "贾母", "dialogue": "托娘娘洪福，起居尚健", "action": "对话"}
+{"role": "元妃", "dialogue": "这几年来，难为你操心", "action": "对话"}
+{"role": "凤姐", "dialogue": "尚可支持", "action": "对话"}
+{"role": "元妃", "dialogue": "今日稍安，令他们外面暂歇", "action": "对话"}
+{"role": "元妃", "dialogue": "父女弟兄，反不如小家子得以常常亲近", "action": "对话"}
+{"role": "贾母", "dialogue": "娘娘不用悲伤，家中已托着娘娘的福多了", "action": "对话"}
+{"role": "元妃", "dialogue": "宝玉近来若何？", "action": "对话"}
+{"role": "贾母", "dialogue": "近来颇肯念书。因他父亲逼得严紧，如今文字也都做上来了", "action": "对话"}
+{"role": "元妃", "dialogue": "这样才好", "action": "对话"}

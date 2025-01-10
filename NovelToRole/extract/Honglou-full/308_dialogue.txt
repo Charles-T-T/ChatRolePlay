@@ -1,0 +1,11 @@
+{"role": "板儿", "dialogue": "众人等他不见，板儿见没了他姥姥，急得哭了", "action": "动作"}
+{"role": "众人", "dialogue": "别是掉在茅厕里了？快叫人去瞧瞧", "action": "对话"}
+{"role": "袭人", "dialogue": "是他醉了迷了路，顺着这一条路往我们后院子里去了", "action": "独白"}
+{"role": "袭人", "dialogue": "我且瞧瞧去", "action": "独白"}
+{"role": "袭人", "dialogue": "谁知那几个房子里的小丫头已偷空玩去了", "action": "独白"}
+{"role": "袭人", "dialogue": "姑娘，我失错了！并没弄脏了床帐", "action": "对话"}
+{"role": "袭人", "dialogue": "不相干，有我呢。你随我出来", "action": "对话"}
+{"role": "刘姥姥", "dialogue": "这是那个小姐的绣房，这样精致？我就像到了天宫里一样", "action": "对话"}
+{"role": "袭人", "dialogue": "这个么，是宝二爷的卧室", "action": "对话"}
+{"role": "贾母", "dialogue": "也不吃饭，便坐了竹椅小敞轿回至房中歇息", "action": "动作"}
+{"role": "贾母", "dialogue": "命凤姐儿等去吃饭", "action": "对话"}

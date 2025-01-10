@@ -1,0 +1,6 @@
+{"role": "贾母", "dialogue": "把那一张小楠木桌子抬过来，让刘亲家近我这边坐着", "action": "指示"}
+{"role": "凤姐", "dialogue": "这是我们家的规矩，若错了，我们就笑话呢", "action": "嘱咐"}
+{"role": "薛姨妈", "dialogue": "不吃，只坐在一边吃茶", "action": "说明"}
+{"role": "鸳鸯", "dialogue": "别忘了", "action": "悄声"}
+{"role": "刘姥姥", "dialogue": "姑娘放心", "action": "回应"}
+{"role": "刘姥姥", "dialogue": "这叉爬子比俺那里铁锨还沉，哪里犟得过它", "action": "抱怨"}

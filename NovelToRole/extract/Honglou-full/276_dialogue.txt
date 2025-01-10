@@ -1,0 +1,16 @@
+{"role": "凤姐", "dialogue": "说着一齐进入亭子，献过茶，凤姐忙着搭桌子，要杯箸", "action": "动作"}
+{"role": "凤姐", "dialogue": "螃蟹不可多拿来，仍旧放在蒸笼里，拿十个来，吃了再拿", "action": "指示"}
+{"role": "薛姨妈", "dialogue": "我自己掰着吃香甜，不用人让", "action": "对话"}
+{"role": "凤姐", "dialogue": "便奉与贾母", "action": "动作"}
+{"role": "凤姐", "dialogue": "把酒烫得滚热的拿来", "action": "指示"}
+{"role": "史湘云", "dialogue": "陪着吃了一个，就下座来让人", "action": "动作"}
+{"role": "史湘云", "dialogue": "命人盛两盘子与赵姨娘、周姨娘送去", "action": "指示"}
+{"role": "凤姐", "dialogue": "你不惯张罗，你吃你的去。我先替你张罗，等散了我再吃", "action": "对话"}
+{"role": "鸳鸯", "dialogue": "二奶奶在这里伺候，我们可吃去了", "action": "对话"}
+{"role": "凤姐", "dialogue": "你们只管去，都交给我就是了", "action": "对话"}
+{"role": "鸳鸯", "dialogue": "奶奶又出来作什么？让我们也受用一会子", "action": "对话"}
+{"role": "凤姐", "dialogue": "鸳鸯小蹄子越发坏了，我替你当差，倒不领情，还抱怨我。还不快斟一钟酒来我喝呢", "action": "对话"}
+{"role": "鸳鸯", "dialogue": "忙斟了一杯酒，送至凤姐唇边", "action": "动作"}
+{"role": "凤姐", "dialogue": "一扬脖子吃了", "action": "动作"}
+{"role": "琥珀", "dialogue": "斟上一杯，送至凤姐唇边", "action": "动作"}
+{"role": "凤姐", "dialogue": "也吃了", "action": "动作"}

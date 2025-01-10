@@ -1,0 +1,14 @@
+{"role": "园中姊妹", "dialogue": "园中姊妹和李纨、迎春、惜春等人，皆为凤姐是好意", "action": "叙述"}
+{"role": "宝", "dialogue": "然宝、黛一干人暗为二姐担心", "action": "叙述"}
+{"role": "凤姐", "dialogue": "凤姐儿又并无露出一点坏形来", "action": "叙述"}
+{"role": "贾琏", "dialogue": "贾琏来家时，见了凤姐贤良，也便不留心", "action": "叙述"}
+{"role": "秋桐", "dialogue": "那秋桐便和贾琏有旧，从未来过一次", "action": "叙述"}
+{"role": "凤姐", "dialogue": "凤姐虽恨秋桐，且喜借她先可发脱二姐", "action": "叙述"}
+{"role": "凤姐", "dialogue": "我还让她三分，你去硬碰她，岂不是自寻其死？", "action": "对话"}
+{"role": "秋桐", "dialogue": "奶奶是软弱人，那等贤惠，我却做不来", "action": "对话"}
+{"role": "秋桐", "dialogue": "让我和她这淫妇做一回，她才知道", "action": "对话"}
+{"role": "尤二姐", "dialogue": "气得尤二姐在房里哭泣，连饭也不吃", "action": "叙述"}
+{"role": "贾母", "dialogue": "贾母见她眼睛红红的肿了，问她，又不敢说", "action": "叙述"}
+{"role": "秋桐", "dialogue": "她专会作死，好好的成天家号丧", "action": "对话"}
+{"role": "贾母", "dialogue": "人太生娇俏了，可知心就嫉妒", "action": "对话"}
+{"role": "平儿", "dialogue": "还是亏了平儿，时常背着凤姐，看她这般", "action": "叙述"}

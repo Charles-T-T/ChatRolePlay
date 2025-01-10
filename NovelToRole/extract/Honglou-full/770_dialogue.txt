@@ -1,0 +1,14 @@
+{"role": "黛玉", "dialogue": "那黛玉此时心里竟是油儿、酱儿、糖儿、醋儿倒在一处的一般，甜、苦、酸、咸，竟说不上什么味儿来了", "action": "独白"}
+{"role": "黛玉", "dialogue": "你别混说了。你再混说，叫人听见，又要打你了。你去罢", "action": "对话"}
+{"role": "黛玉", "dialogue": "我问问宝玉去", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘怎么又回去？是要往那里去？", "action": "对话"}
+{"role": "黛玉", "dialogue": "你作什么来的？", "action": "对话"}
+{"role": "紫鹃", "dialogue": "我找了绢子来了。头里见姑娘在桥那边呢，我赶着过来问姑娘，姑娘没理会", "action": "对话"}
+{"role": "黛玉", "dialogue": "我打量你来瞧宝二爷来了呢，不然怎么往这里走呢？", "action": "对话"}
+{"role": "紫鹃", "dialogue": "（心中想）", "action": "独白"}
+{"role": "黛玉", "dialogue": "（心里微觉明晰）", "action": "独白"}
+{"role": "袭人", "dialogue": "姑娘屋里坐罢", "action": "对话"}
+{"role": "黛玉", "dialogue": "宝二爷在家么？", "action": "对话"}
+{"role": "黛玉", "dialogue": "（自己走进房来）", "action": "动作"}
+{"role": "黛玉", "dialogue": "（看见宝玉在那里坐着，也不起来让坐，只瞅着嘻嘻的傻笑）", "action": "动作"}
+{"role": "黛玉", "dialogue": "（自己坐下，却也瞅着宝玉笑）", "action": "动作"}

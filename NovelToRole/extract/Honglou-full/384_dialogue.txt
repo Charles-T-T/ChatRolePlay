@@ -1,0 +1,16 @@
+{"role": "晴雯", "dialogue": "晴雯自在熏笼上，麝月便在暖阁外边", "action": "动作"}
+{"role": "宝玉", "dialogue": "叫袭人", "action": "对话"}
+{"role": "宝玉", "dialogue": "要吃茶", "action": "对话"}
+{"role": "麝月", "dialogue": "他叫袭人，与我什么相干！", "action": "对话"}
+{"role": "麝月", "dialogue": "作什么？", "action": "对话"}
+{"role": "宝玉", "dialogue": "披上我的袄儿再去，仔细冷着", "action": "对话"}
+{"role": "麝月", "dialogue": "连我都醒了，她守在旁边还不知道，真是个挺死尸的", "action": "对话"}
+{"role": "晴雯", "dialogue": "好妹妹，也赏我一口儿", "action": "对话"}
+{"role": "麝月", "dialogue": "越发上脸儿了！", "action": "对话"}
+{"role": "晴雯", "dialogue": "好妹妹，明儿晚上你别动，我服侍你一夜，如何？", "action": "对话"}
+{"role": "麝月", "dialogue": "你们两个别睡，说着话儿，我出去走走回来", "action": "对话"}
+{"role": "晴雯", "dialogue": "外头有个鬼等着你呢！", "action": "对话"}
+{"role": "宝玉", "dialogue": "外头自然有大月亮的，我们说话，你只管去", "action": "对话"}
+{"role": "晴雯", "dialogue": "哪里就唬死了她？偏你惯会这蝎蝎蛰蛰老婆汉像的！", "action": "对话"}
+{"role": "宝玉", "dialogue": "倒不为唬坏了她，头一件冻着你也不好", "action": "对话"}
+{"role": "宝玉", "dialogue": "快进被来焐焐罢", "action": "对话"}

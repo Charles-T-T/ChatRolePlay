@@ -1,0 +1,8 @@
+{"role": "妙玉", "dialogue": "我到五更须得打坐一回，我自有人服侍，你自去歇息", "action": "对话"}
+{"role": "惜春", "dialogue": "见妙玉要自己养神，不便扭她", "action": "独白"}
+{"role": "惜春", "dialogue": "了不得了！有了人了！", "action": "对话"}
+{"role": "妙玉", "dialogue": "不好了！必是这里有了贼了", "action": "对话"}
+{"role": "包勇", "dialogue": "不要跑了他们一个！你们都跟我来", "action": "对话"}
+{"role": "包勇", "dialogue": "有一个走了，有的在房上呢", "action": "对话"}
+{"role": "包勇", "dialogue": "这些毛贼！敢来和我斗斗！", "action": "对话"}
+{"role": "平儿", "dialogue": "这里也没开门，只听上屋叫喊，说有贼呢，你到那里去罢", "action": "对话"}

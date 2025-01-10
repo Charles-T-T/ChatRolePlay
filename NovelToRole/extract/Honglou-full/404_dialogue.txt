@@ -1,0 +1,11 @@
+{"role": "尤氏", "dialogue": "尤氏上房早已袭地铺满红毡", "action": "动作"}
+{"role": "尤氏", "dialogue": "请贾母上去坐了", "action": "对话"}
+{"role": "尤氏", "dialogue": "已经预备下老太太的晚饭", "action": "对话"}
+{"role": "凤姐", "dialogue": "老祖宗快走罢，咱们家去吃，别理她", "action": "对话"}
+{"role": "贾母", "dialogue": "你这里供着祖宗，忙得什么似的，哪里搁得住我闹！", "action": "对话"}
+{"role": "贾母", "dialogue": "况且每年我不吃，你们也要送去的。不如还送了去，我吃不了，留着明儿再吃，岂不多吃些？", "action": "对话"}
+{"role": "尤氏", "dialogue": "好生派妥当人夜里看香火，不是大意得的", "action": "对话"}
+{"role": "贾母", "dialogue": "老太太们来行礼", "action": "对话"}
+{"role": "贾母", "dialogue": "一年价难为你们，不行礼罢", "action": "对话"}
+{"role": "贾母", "dialogue": "归了正坐", "action": "动作"}
+{"role": "贾母", "dialogue": "起身进内间更衣", "action": "动作"}

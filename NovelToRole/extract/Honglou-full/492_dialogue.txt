@@ -1,0 +1,12 @@
+{"role": "李纨", "dialogue": "真有趣，你们掷去罢。我只自吃一杯，不问你们的废与兴", "action": "对话"}
+{"role": "黛玉", "dialogue": "‘夜深’两个字，改‘石凉’两个字", "action": "对话"}
+{"role": "湘云", "dialogue": "快坐上那船家去罢，别多话了", "action": "对话"}
+{"role": "湘云", "dialogue": "阿弥陀佛，真真好签！", "action": "对话"}
+{"role": "宝玉", "dialogue": "咱们且喝酒", "action": "对话"}
+{"role": "麝月", "dialogue": "怎么讲？", "action": "对话"}
+{"role": "黛玉", "dialogue": "不知还有什么好的被我掣着方好", "action": "独白"}
+{"role": "黛玉", "dialogue": "莫怨东风当自嗟", "action": "独白"}
+{"role": "众人", "dialogue": "这个好极。除了她，别人不配作芙蓉", "action": "对话"}
+{"role": "黛玉", "dialogue": "命中该着招贵婿的，你是杏花，快喝了，我们好喝", "action": "对话"}
+{"role": "探春", "dialogue": "这是个什么话，大嫂子顺手给他一下子", "action": "对话"}
+{"role": "李纨", "dialogue": "人家不得贵婿反挨打，我也不忍的", "action": "对话"}

@@ -1,0 +1,11 @@
+{"role": "茗烟", "dialogue": "这茗烟乃是宝玉第一个得用的，且又年轻不谙世事", "action": "独白"}
+{"role": "茗烟", "dialogue": "姓金的，你是什么东西！", "action": "对话"}
+{"role": "贾蔷", "dialogue": "是时候了", "action": "对话"}
+{"role": "贾瑞", "dialogue": "茗烟不得撒野！", "action": "对话"}
+{"role": "金荣", "dialogue": "反了，反了！奴才小子都敢如此，我只和你主子说", "action": "对话"}
+{"role": "贾菌", "dialogue": "好囚攮的们，这不都动了手了么！", "action": "对话"}
+{"role": "贾兰", "dialogue": "好兄弟，不与咱们相干", "action": "对话"}
+{"role": "贾菌", "dialogue": "你们还不来动手？", "action": "对话"}
+{"role": "锄药", "dialogue": "小妇养的！动了兵器了！", "action": "对话"}
+{"role": "墨雨", "dialogue": "动了兵器了！", "action": "对话"}
+{"role": "扫红", "dialogue": "动了兵器了！", "action": "对话"}

@@ -1,0 +1,14 @@
+{"role": "晴雯", "dialogue": "你也该醒了，只是睡不够！你出去叫人给他预备茶水，我叫醒他就是了", "action": "对话"}
+{"role": "麝月", "dialogue": "咱们叫起他来，穿好衣裳，抬过这火箱去，再叫她们进来", "action": "对话"}
+{"role": "麝月", "dialogue": "老嬷嬷们已经说过，不叫他在这屋里，怕过了病气", "action": "对话"}
+{"role": "晴雯", "dialogue": "我也是这么说呢", "action": "对话"}
+{"role": "麝月", "dialogue": "天又阴阴的，只怕有雪，穿那一套毡的罢", "action": "对话"}
+{"role": "宝玉", "dialogue": "天阴着，还没有下呢", "action": "对话"}
+{"role": "贾母", "dialogue": "下雪么？", "action": "对话"}
+{"role": "贾母", "dialogue": "把昨儿那一件乌云豹的氅衣给他罢", "action": "对话"}
+{"role": "贾母", "dialogue": "这叫作‘雀金呢’，这是俄罗斯国拿孔雀毛拈了线织的", "action": "对话"}
+{"role": "贾母", "dialogue": "你先给你娘瞧瞧去再去", "action": "对话"}
+{"role": "宝玉", "dialogue": "好姐姐，你瞧瞧，我穿著这个好不好？", "action": "对话"}
+{"role": "宝玉", "dialogue": "太太看了，只说可惜了的，叫我仔细穿，别遭塌了他", "action": "对话"}
+{"role": "贾母", "dialogue": "就剩下了这一件，你遭塌了也再没了", "action": "对话"}
+{"role": "贾母", "dialogue": "不许多吃酒，早些回来", "action": "对话"}

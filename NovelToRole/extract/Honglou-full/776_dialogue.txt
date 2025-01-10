@@ -1,0 +1,8 @@
+{"role": "黛玉", "dialogue": "妹妹，你是我最知心的，虽是老太太派你服侍我这几年，我拿你就当作我的亲妹妹", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘的身上不大好，起来又要抖搂着了", "action": "对话"}
+{"role": "黛玉", "dialogue": "紫鹃妹妹，我躺着不受用，你扶起我来靠着坐坐才好", "action": "对话"}
+{"role": "黛玉", "dialogue": "我的诗本子――", "action": "对话"}
+{"role": "黛玉", "dialogue": "有字的！", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘歪歪儿罢", "action": "对话"}
+{"role": "紫鹃", "dialogue": "姑娘何苦自己又生气！", "action": "对话"}
+{"role": "黛玉", "dialogue": "点灯", "action": "指示"}

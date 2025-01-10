@@ -1,0 +1,19 @@
+温水:「还没喔。八奈见同学，口水都流出来了。」
+scene:Characters engage in a humorous and confusing conversation about food choices.
+八奈见:「……才没有。」
+scene:The protagonist, 温水, is pressured to make a decision, leading to a mix-up with product selection.
+scene:月之木学姐 and 小鞠 display enthusiasm over pickled foods.
+scene:The group is on a road trip, intended to visit a salt-making site.
+scene:月之木学姐 drives erratically, causing concern among passengers.
+scene:The journey is filled with detours and sightseeing, delaying their arrival.
+scene:Despite the detours, the protagonist enjoys the unexpected sightseeing.
+温水:「时间都快傍晚了。还要很久才会到烧盐那边吗？」
+scene:The group is concerned about reaching their destination before nightfall.
+八奈见:「」
+八奈见:「别担心。已经到了她奶奶家附近了。哎呀～还真远。」
+温水:「……这里和休息区的距离只有20分钟左右的车程。之前不是说距离那边还很远吗？」
+八奈见:「按照温水的个性，只要说很近，你就会马上想过去吧？」
+温水:「这不是当然的吗？我们本来就是为此而来的。」
+八奈见:「人生需要多绕点远路。说穿了是因为我想玩。」
+温水:「老实这点我给高评价。不过，今天出来的目的终究是……」
+八奈见:「不行不行，温水，你的问题就出在这里。」

@@ -1,0 +1,10 @@
+{"role": "秦氏", "dialogue": "ㄚ鬟们，好生看着猫儿狗儿打架打架！", "action": "对话"}
+{"role": "秦氏", "dialogue": "我的小名这里没人知道，他如何从梦里叫出来？", "action": "对话"}
+{"role": "宝玉", "dialogue": "可卿救我", "action": "对话"}
+{"role": "宝玉", "dialogue": "一言难尽。", "action": "对话"}
+{"role": "袭人", "dialogue": "你梦见什么故事了？是那里流出来的那些脏东西？", "action": "对话"}
+{"role": "宝玉", "dialogue": "好姐姐，千万别告诉别人要紧！", "action": "对话"}
+{"role": "宝玉", "dialogue": "一言难尽。", "action": "对话"}
+{"role": "宝玉", "dialogue": "羞的袭人掩面伏身而笑。", "action": "独白"}
+{"role": "宝玉", "dialogue": "自此，宝玉视袭人更与别个不同", "action": "独白"}
+{"role": "袭人", "dialogue": "仍旧理好衣裳，遂至贾母处来", "action": "动作"}

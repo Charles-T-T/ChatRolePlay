@@ -1,0 +1,11 @@
+scene:They consider costumes like a ghost and a devil, discussing themes of maturity and cuteness.
+scene:The story includes a humorous moment with a wedding dress catalog, leading to their final costume decisions.
+华恋:「啊，要写服装的尺寸才行。杏菜也是吧？」
+八奈见:「华恋，你干嘛那么紧张啦。」
+华恋:「杏菜才在紧张吧。好了，先来决定服装尺寸吧。呃……」
+八奈见:「怎么啦？华恋的腰那么细，应该都很轻松吧？」
+华恋:「问题是……就算选最大的尺寸，胸围好像都不够装。」
+八奈见:「欸？」
+scene:华恋和杏菜讨论服装尺寸，华恋担心胸围不够大。
+八奈见:「华恋，我顺便问一下喔，你尺寸大概多少？」
+八奈见:「光是胸部就已经有两好了嘛……」

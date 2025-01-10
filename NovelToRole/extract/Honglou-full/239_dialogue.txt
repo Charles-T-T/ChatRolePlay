@@ -1,0 +1,8 @@
+{"role": "丫鬟", "dialogue": "宝姑娘来了", "action": "对话"}
+{"role": "袭人", "dialogue": "晚上把这药用酒研开，替他敷上，把那淤血的热毒散开，可以就好了", "action": "对话"}
+{"role": "宝钗", "dialogue": "这会子可好些？", "action": "对话"}
+{"role": "宝玉", "dialogue": "好些了", "action": "对话"}
+{"role": "宝钗", "dialogue": "早听人一句话，也不至今日。别说老太太、太太心疼，就是我们看着，心里也疼......", "action": "对话"}
+{"role": "宝钗", "dialogue": "怎么好好的动了气，就打起来了？", "action": "对话"}
+{"role": "袭人", "dialogue": "（把茗烟的话说了出来）", "action": "对话"}
+{"role": "宝玉", "dialogue": "薛大哥哥从来不这样的，你们别混猜度", "action": "对话"}

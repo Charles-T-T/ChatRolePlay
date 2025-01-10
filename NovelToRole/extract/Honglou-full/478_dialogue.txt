@@ -1,0 +1,16 @@
+{"role": "袭人", "dialogue": "袭人等捧过茶来，才吃了一口", "action": "动作"}
+{"role": "平儿", "dialogue": "我正打发你姐姐梳头，不得出来回你", "action": "对话"}
+{"role": "宝玉", "dialogue": "我方才到凤姐姐门上，回了进去，不能见，我又打发人进去让姐姐的", "action": "对话"}
+{"role": "平儿", "dialogue": "所以特赶来磕头", "action": "对话"}
+{"role": "贾玉", "dialogue": "我也禁当不起", "action": "对话"}
+{"role": "宝玉", "dialogue": "已经完了，怎么又作揖？", "action": "对话"}
+{"role": "袭人", "dialogue": "这是她来给你拜寿。今儿也是她的生日，你也该给她拜寿", "action": "对话"}
+{"role": "宝玉", "dialogue": "原来今儿也是姐姐的芳诞", "action": "对话"}
+{"role": "湘云", "dialogue": "你们四个人对拜寿，直拜一天才是", "action": "对话"}
+{"role": "探春", "dialogue": "原来邢妹妹也是今儿？我怎么就忘了", "action": "对话"}
+{"role": "探春", "dialogue": "倒有些意思，一年十二个月，月月有几个生日", "action": "对话"}
+{"role": "袭人", "dialogue": "二月十二是林姑娘，怎么没人？就只不是咱家的人", "action": "对话"}
+{"role": "探春", "dialogue": "原来你两个倒是一日。所以她记得", "action": "对话"}
+{"role": "平儿", "dialogue": "我们是那牌儿名上的人，生日也没拜寿的福", "action": "对话"}
+{"role": "探春", "dialogue": "也不敢惊动。只是今儿倒要替你过个生日，我心才过得去", "action": "对话"}
+{"role": "丫头", "dialogue": "二奶奶说了，多谢姑娘们给她脸", "action": "对话"}

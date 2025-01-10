@@ -1,0 +1,7 @@
+{"role": "宝玉", "dialogue": "好姐姐，你千万照看她两天！我如今去了", "action": "央道"}
+{"role": "宝玉", "dialogue": "不管怎么睡罢了", "action": "对话"}
+{"role": "袭人", "dialogue": "今日怎么睡？", "action": "问"}
+{"role": "宝玉", "dialogue": "我近来叫惯了她，却忘了是你", "action": "对话"}
+{"role": "袭人", "dialogue": "她一乍来时，你也曾睡梦中直叫我，半年后才改了", "action": "对话"}
+{"role": "宝玉", "dialogue": "晴雯死了！", "action": "叫醒"}
+{"role": "袭人", "dialogue": "这是哪里的话！你就知道胡闹，被人听着，什么意思！", "action": "笑道"}

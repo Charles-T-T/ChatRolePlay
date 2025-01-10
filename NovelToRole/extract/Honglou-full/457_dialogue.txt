@@ -1,0 +1,11 @@
+{"role": "莺儿", "dialogue": "莺儿答应了出来，便到紫鹃房中找蕊官", "action": "动作"}
+{"role": "莺儿", "dialogue": "姑娘也去呢，藕官先同我们去等着，岂不好？", "action": "对话"}
+{"role": "紫鹃", "dialogue": "这话倒是，她这里淘气得也可厌", "action": "对话"}
+{"role": "紫鹃", "dialogue": "你先带了这个去，也算一趟差了", "action": "对话"}
+{"role": "藕官", "dialogue": "藕官接了，笑嘻嘻同她二人出来", "action": "动作"}
+{"role": "莺儿", "dialogue": "你们再不去，我也不编了", "action": "对话"}
+{"role": "藕官", "dialogue": "我同你去了，再快回来", "action": "对话"}
+{"role": "春燕", "dialogue": "姐姐织什么呢？", "action": "对话"}
+{"role": "春燕", "dialogue": "前儿你到底烧什么纸？被我姨妈看见了，要告你", "action": "对话"}
+{"role": "藕官", "dialogue": "有什么仇恨？她们不知足，反怨我们了", "action": "对话"}
+{"role": "藕官", "dialogue": "你说说可有良心？", "action": "对话"}

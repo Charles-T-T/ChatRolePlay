@@ -1,0 +1,10 @@
+{"role": "警幻", "dialogue": "痴儿！竟尚未悟！", "action": "叹息"}
+{"role": "宝玉", "dialogue": "仙姑错了！我因懒于读书，家父母尚每垂训饬，岂敢再冒‘淫’字？", "action": "急忙回应"}
+{"role": "警幻", "dialogue": "非也！淫虽一理，意则有别。", "action": "解释"}
+{"role": "警幻", "dialogue": "如尔则天分中生成一段痴情，吾辈推之为‘意淫’。", "action": "说明"}
+{"role": "警幻", "dialogue": "今既遇令祖宁、荣二公剖腹深嘱，吾不忍君独为我闺阁增光，见弃于世道。", "action": "告知"}
+{"role": "警幻", "dialogue": "今夕良时，即可成姻。", "action": "提议"}
+{"role": "宝玉", "dialogue": "此系何处？", "action": "询问"}
+{"role": "警幻", "dialogue": "此即迷津也。", "action": "解释"}
+{"role": "宝玉", "dialogue": "可卿救我！可卿救我！", "action": "呼喊"}
+{"role": "袭人", "dialogue": "宝玉别怕，我们在这里!", "action": "安慰"}

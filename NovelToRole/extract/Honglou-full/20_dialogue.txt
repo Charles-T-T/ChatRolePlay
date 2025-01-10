@@ -1,0 +1,10 @@
+{"role": "黛玉", "dialogue": "黛玉一一的都答应着", "action": "对话"}
+{"role": "丫鬟", "dialogue": "老太太那里传晚饭了！", "action": "对话"}
+{"role": "王夫人", "dialogue": "这是你凤姐姐的屋子，回来你好往这里找她来，少什么东西，你只管和她说就是了", "action": "对话"}
+{"role": "王夫人", "dialogue": "你舅母和嫂子们不在这里吃饭。你是客，原应如此坐的", "action": "对话"}
+{"role": "贾母", "dialogue": "你舅母和嫂子们不在这里吃饭。你是客，原应如此坐的", "action": "对话"}
+{"role": "贾母", "dialogue": "你们去罢，让我们自在说话儿", "action": "对话"}
+{"role": "贾母", "dialogue": "念何书", "action": "对话"}
+{"role": "黛玉", "dialogue": "只刚念了《四书》", "action": "对话"}
+{"role": "黛玉", "dialogue": "你们读何书", "action": "对话"}
+{"role": "贾母", "dialogue": "读的是什么书，不过是认得两个字，不是睁眼的瞎子罢了！", "action": "对话"}

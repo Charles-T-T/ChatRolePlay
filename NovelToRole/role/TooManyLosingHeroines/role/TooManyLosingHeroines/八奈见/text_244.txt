@@ -1,0 +1,12 @@
+scene:Ayano and Choyun express willingness to help Onmizu, emphasizing friendship over debts.
+scene:Onmizu agrees to ask for help when needed, acknowledging their friendship.
+八奈见:「……看过来。两位都先听我说。」
+scene:Ayano and Choyun share a moment of affection, using Onmizu as an excuse.
+scene:Onmizu, Yana, and Koguri work on a project, with Onmizu and Koguri collaborating online.
+scene:Yana is assigned a unique role as a consultant for the project.
+八奈见:「听好啰！我说要以食为主题──并不是那个意思。」
+scene:The project theme is "Food and Literature," focusing on foods liked by authors and mentioned in books.
+scene:Yana is excited about the food aspect but is reminded it's not a food business.
+温水:「原来不是这个意思喔？八奈见语还真难解。「那你是什么意思？」」
+温水:「那是什么？」
+八奈见:「你们想想看，昭和的文豪之类的，不是有种吃牛肉锅或鳗鱼之类的印象吗？我们既然是文艺社，就该积极享受文豪的氛围嘛。」

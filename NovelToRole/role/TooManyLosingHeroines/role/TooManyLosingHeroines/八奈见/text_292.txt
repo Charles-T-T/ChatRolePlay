@@ -1,0 +1,11 @@
+scene:The group realizes they went to the wrong area for interacting with smaller animals.
+scene:Kogumi remains upset, feeling abandoned during the sheep encounter.
+温水:「而且最后还是救你了，希望你懂得感恩。话虽如此，今天出来这趟也是为了慰劳小鞠。我安抚着小鞠，一起逛可爱动物区的过程中，她的心情也渐渐恢复。」
+八奈见:「果然看到马来熊，心情就会嗨起来耶。好啦，接下来要去哪里？」
+温水:「夜行动物馆怎么样？非洲睡鼠很可爱喔。」
+小鞠:「怎、怎么样……？」
+小鞠:「那、那里当然是要看蚁熊。真、真没眼光。」
+温水:「我和这家伙果真兴趣不合。」
+八奈见:「温水，这种时候就该女士优先。小鞠，你有没有特别想去哪里？」
+小鞠:「呜呃？我、我那个……想去植物园。」
+八奈见:「植物园喔～在那边就算看到果子结实也不能吃喔？没问题吗？」

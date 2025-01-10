@@ -1,0 +1,9 @@
+{"role": "宝玉", "dialogue": "和尚、道士的话如何信得？什么是‘金玉姻缘’，我偏说是‘木石姻缘’！", "action": "对话"}
+{"role": "宝钗", "dialogue": "听了这话不觉怔了", "action": "独白"}
+{"role": "袭人", "dialogue": "还没有醒呢？", "action": "对话"}
+{"role": "宝钗", "dialogue": "摇头", "action": "动作"}
+{"role": "袭人", "dialogue": "我才碰见林姑娘、史大姑娘，他们可曾进来？", "action": "对话"}
+{"role": "宝钗", "dialogue": "没见她们进来", "action": "对话"}
+{"role": "宝钗", "dialogue": "她们没告诉你什么话？", "action": "对话"}
+{"role": "袭人", "dialogue": "左不过是她们那些玩话，有什么正经说的", "action": "对话"}
+{"role": "宝钗", "dialogue": "今儿她们说的可不是玩话，我正要告诉你呢，你又忙忙的出去了", "action": "对话"}

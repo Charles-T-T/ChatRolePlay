@@ -1,0 +1,10 @@
+{"role": "凤姐", "dialogue": "凤姐刚举步走了不远，只觉身后“咈咈哧哧”，似有闻嗅之声，不觉头发森然竖了起来", "action": "独白"}
+{"role": "凤姐", "dialogue": "是谁？", "action": "问话"}
+{"role": "凤姐", "dialogue": "嗳呀！你是死了的人哪，怎么跑到这里来了呢？", "action": "对话"}
+{"role": "凤姐", "dialogue": "你们做什么呢，去了这半天？快拿来我穿上罢", "action": "对话"}
+{"role": "凤姐", "dialogue": "我才到那里，他们都睡了，咱们回去罢", "action": "对话"}
+{"role": "贾琏", "dialogue": "待要问她，又知她素日性格，不敢突然相问", "action": "独白"}
+{"role": "贾琏", "dialogue": "便拿起来闲看", "action": "动作"}
+{"role": "贾琏", "dialogue": "心中早又不自在起来", "action": "独白"}
+{"role": "贾琏", "dialogue": "因此急急的穿了衣服", "action": "动作"}
+{"role": "贾琏", "dialogue": "喝了两口，便出来骑马走了", "action": "动作"}

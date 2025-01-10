@@ -1,0 +1,15 @@
+{"role": "宝玉", "dialogue": "满屋里就只是她磨牙", "action": "对话"}
+{"role": "麝月", "dialogue": "你去你的罢，又来问人了", "action": "对话"}
+{"role": "晴雯", "dialogue": "我怎么磨牙了？咱们倒得说说", "action": "对话"}
+{"role": "晴雯", "dialogue": "你又护着。你们那瞒神弄鬼的，我都知道。等我捞回本儿来再说话", "action": "对话"}
+{"role": "宝玉", "dialogue": "命麝月悄悄的服侍他睡下，不肯惊动袭人", "action": "动作"}
+{"role": "袭人", "dialogue": "觉得轻省了些，只吃些米汤静养", "action": "独白"}
+{"role": "宝玉", "dialogue": "因饭后走到薛姨妈这边来闲逛", "action": "动作"}
+{"role": "贾环", "dialogue": "也要玩", "action": "对话"}
+{"role": "宝钗", "dialogue": "让他上来坐了一处玩", "action": "对话"}
+{"role": "贾环", "dialogue": "我拿什么比宝玉呢？你们怕他，都和他好，都欺负我不是太太养的", "action": "对话"}
+{"role": "宝钗", "dialogue": "好兄弟，快别说这话，人家笑话你", "action": "对话"}
+{"role": "宝钗", "dialogue": "越大越没规矩，难道爷们还赖你？还不放下钱来呢！", "action": "对话"}
+{"role": "莺儿", "dialogue": "一个作爷的，还赖我们这几个钱，连我也不放在眼里", "action": "对话"}
+{"role": "莺儿", "dialogue": "分明是个ㄠ！", "action": "对话"}
+{"role": "贾环", "dialogue": "六七八", "action": "对话"}

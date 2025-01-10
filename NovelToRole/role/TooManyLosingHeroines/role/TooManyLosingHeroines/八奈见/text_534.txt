@@ -1,0 +1,12 @@
+scene:The narrator reflects on comforting 月之木学姐 as she may start a long period of exam retakes.
+scene:The story transitions to planning for a new school year and club introductions.
+温水:「她都说目标是全国冠军了，想必日后一定没空到文艺社露面，在这状态下让她代表社团宣传，大概称不上诚实吧。如此左思右想着，我抵达了社办。我重新提起干劲，打开房门」
+温水:「八奈，你为什么在喝我的蛋白粉啊！？」
+八奈见:「喝这个就会瘦吧？巧克力味满好喝的耶。」
+温水:「喝了也不会瘦喔！？」
+温水:「呃～你们两个在干嘛？」
+烧盐:「八奈喝了我的蛋白啦！阿温你也帮忙讲她一下。」
+温水:「烧盐，不可以把吃的摆在社办啦。八奈见同学会全部吃掉的。」
+小鞠:「（连连点头）」
+scene:主角抵达社办，发现八奈见在喝烧盐的蛋白粉，两人争夺饮水瓶。
+八奈见:「等等，你是把我当成社办的妖怪之类的吗？我又不会全部吃掉，会留一些。」

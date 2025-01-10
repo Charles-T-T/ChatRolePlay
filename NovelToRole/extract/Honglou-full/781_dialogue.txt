@@ -1,0 +1,10 @@
+{"role": "傧相", "dialogue": "请了新人出轿", "action": "动作"}
+{"role": "宝玉", "dialogue": "因何紫鹃不来，倒是她呢？", "action": "独白"}
+{"role": "宝玉", "dialogue": "是了，雪雁原是她南边家里带来的，紫鹃仍是我们家的，自然不必带来", "action": "独白"}
+{"role": "宝玉", "dialogue": "妹妹身上好了？好些天不见了，盖这劳什子做什么？", "action": "对话"}
+{"role": "宝玉", "dialogue": "林妹妹是爱生气的，不可造次", "action": "独白"}
+{"role": "宝玉", "dialogue": "可不是宝钗么！", "action": "独白"}
+{"role": "宝玉", "dialogue": "呆呆的只管站着", "action": "独白"}
+{"role": "贾母", "dialogue": "恐他病发，亲自扶他上床", "action": "动作"}
+{"role": "凤姐", "dialogue": "请了宝钗进入里间床上坐下", "action": "动作"}
+{"role": "宝钗", "dialogue": "自然是低头不语", "action": "独白"}

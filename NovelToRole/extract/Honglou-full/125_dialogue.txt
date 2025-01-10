@@ -1,0 +1,12 @@
+{"role": "太监", "dialogue": "赐物俱齐，请验等例", "action": "启道"}
+{"role": "贾妃", "dialogue": "俱甚妥协，即命照此遵行", "action": "对话"}
+{"role": "太监", "dialogue": "下来一一发放", "action": "动作"}
+{"role": "贾妃", "dialogue": "不须挂念，好生自养", "action": "对话"}
+{"role": "贾妃", "dialogue": "如今天恩浩荡，一月许进内省视一次，见面是尽有的，何必伤惨", "action": "对话"}
+{"role": "贾妃", "dialogue": "倘明岁天恩仍许归省，万不可如此奢华靡费了", "action": "对话"}
+{"role": "贾妃", "dialogue": "满眼又滚下泪来", "action": "独白"}
+{"role": "贾母", "dialogue": "已哭的哽噎难言了", "action": "独白"}
+{"role": "凤姐", "dialogue": "事多任重", "action": "独白"}
+{"role": "宝玉", "dialogue": "极无事最闲暇的", "action": "独白"}
+{"role": "宝玉", "dialogue": "便命换衣裳", "action": "动作"}
+{"role": "宝玉", "dialogue": "便命留与袭人了", "action": "动作"}
