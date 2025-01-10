@@ -1,0 +1,5 @@
+scene:八奈见 offers food to 小鞠, who hesitates due to social anxiety.
+scene:The narrator shares their food with 小鞠, encouraging her to eat.
+八奈见:「该怎么说喔～同样是对待身上没有钱的人，和我那时候是不是有些差异？」
+scene:小鞠 enjoys the food, and 八奈见 notices a difference in treatment compared to a past situation.
+八奈见:「就算真的是这样，我该把理由说出来吗？」

@@ -1,0 +1,20 @@
+scene:Yanaimi interrupts, expressing her continued feelings for Hakamada and frustration with others deciding her emotions.
+scene:Yanaimi insists on her freedom to like Hakamada and eventually move on.
+八奈见:「有话想跟我说就直说啊！随便你啊！」
+scene:She confronts the narrator, emphasizing not to interfere in others' relationships without consent.
+温水:「咦，可以吗？」
+scene:The narrator is surprised by Yanaimi's openness to communication.
+温水:「在学校跟人家说话需要许可吗！？你活在什么世界啊！？」
+温水:「因为如果我找你讲话……你也很困扰吧。」
+八奈见:「那是我来决定的事情吧！况且，对方会怎么想，我也一样不晓得啊！」
+袴田,温水:「是！」
+温水:「咦？」
+温水:「所以说，就是我向八奈见同学搭话也没关系……的意思？」
+八奈见:「要看时间和场合！」
+八奈见:「咦？你为什么好像有点开心啊？很恶心喔，温水。」
+八奈见:「很好。原谅你。」
+温水:「喔、喔喔。」
+温水:「没有啦，没什么。八奈见同学，很多事要谢谢你。」
+八奈见:「……还是老样子，你这个人真是莫名其妙。」
+八奈见:「总之，你们两个都要好好反省！」
+八奈见:「接下来，草介。你要好好跟温水道歉。」

@@ -1,0 +1,13 @@
+scene:The novel is currently with a student council member, Matei, who plans to bring it up at a faculty meeting.
+scene:Tsukinomori-senpai asks Onsui to retrieve the novel to prevent it from being exposed.
+八奈见:「我反倒希望她稍微有点改变……」
+scene:The novel lists the literature club and Onsui as the publisher, implicating them if discovered.
+scene:Onsui is reluctant to help but feels pressured due to the potential consequences for the literature club.
+scene:After Tsukinomori-senpai leaves, Onsui and Yanaimi discuss the unchanged nature of Tsukinomori-senpai, with Onsui feeling unfairly involved.
+八奈见:「比起我们，交给玉木学长比较能顺利解决吧？也没必要一年级生出面吧？」
+scene:玉木学长被认为能解决问题，但月之木学姐不想让他知道。
+温水:「月之木学姐也说了嘛，不想让玉木学长知道。」
+八奈见:「……哎，毕竟时期敏感。」
+温水:「温水，之前好歹也受过学姐照顾，出手相助才合乎做人的道理吧？」
+scene:月之木学姐和玉木学长有不同的升学目标，导致不安。
+八奈见:「况且既然书上都写了文艺社的名字，就没办法隔岸观火了吧？学长姐他们并没有缴交退社申请书，形式上来说其实还是社员吧？」

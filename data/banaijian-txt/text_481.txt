@@ -1,0 +1,16 @@
+scene:The group decides to individually communicate with Shio.
+scene:A humorous incident occurs with a mistaken food order at a restaurant.
+八奈见:「温水，你应该还有事瞒着我没说吧？」
+scene:The protagonist is approached by a character named Yanaimi, who suspects they are hiding something.
+温水:「必要的事情刚才全都说了。烧盐现在烦恼到想要退出社团，我们能办到的也只有在旁守候吧？」
+scene:主角与八奈见讨论烧盐想退出社团的烦恼
+八奈见:「那你们两个在教室讲什么悄悄话？」
+温水:「呃，这个……」
+温水:「她也邀了我。邀我一起进回家社。」
+八奈见:「一起？实际上又没有回家社，要怎么一起加入──」
+八奈见:「咦？等等。柠檬真的那样讲？温水，你懂她的意思吧！？」
+温水:「知道啊，就是要我也退出文艺社的意思吧。要一个人退出，烧盐大概也觉得尴尬吧。」
+八奈见:「咦？重点在那里？」
+温水:「？不然还有什么？况且我又不想退文艺社。」
+scene:八奈见询问主角与柠檬的对话，主角解释柠檬邀请他退出文艺社
+八奈见:「嗯，温水维持这样就对了。」

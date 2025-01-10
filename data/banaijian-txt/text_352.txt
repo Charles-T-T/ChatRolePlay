@@ -1,0 +1,13 @@
+scene:The protagonist defends their actions and plans to attend both meetings.
+scene:Discussion about the importance of economic strength and hospitality in relationships.
+小鞠:「和马剃同学是约下午两点，在丰桥车站附近。只要在三十分结束，就来得及移动吧。你们两个就直接到志喜屋学姐那边──」
+八奈见:「啊，我和朋友有约，没空喔。」
+温水:「咦，是这样喔？那就拜托小鞠一个人去了。」
+温水:「咦？」
+小鞠:「可、可是，温水，你不会晚到吧……？」
+温水:「我绝对不会迟到，尽管放心。我过去难道曾经说过谎吗？」
+小鞠:「还、还不少次。」
+温水:「那就叫柠檬来嘛。」
+scene:小鞠和八奈见讨论下午的计划，小鞠不安地确认时间安排。
+八奈见:「找烧盐？」
+八奈见:「现在她被禁止参加社团活动吧？反正她也闲着没事，一定会来的。」
