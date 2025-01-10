@@ -30,7 +30,7 @@ class KnowledgeDB:
         self.init_loader()
         self.init_docs()
         self.init_embedding()
-        
+
         # 构建向量化本地知识库
         self.db = DocArrayInMemorySearch.from_documents(
             documents=self.docs, embedding=self.embedding
@@ -47,9 +47,10 @@ class KnowledgeDB:
         """
         results = self.db.similarity_search(query, k=self.top_k)
         context = ""
-        for doc in results:
+        for i, doc in enumerate(results):
+            context += f"<plot {i+1}>\n"
             context += doc.page_content
-            context += "\n"
+            context += f"</plot {i+1}>\n"
 
         if self.debug:
             print(context)

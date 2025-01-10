@@ -1,3 +1,5 @@
+import gc
+
 from .config import *
 from .utils import *
 from .prompts import *
@@ -7,8 +9,6 @@ from .KnowledgeDB import KnowledgeDB
 class ChatRolePlay:
     """
     ChatRolePlay
-    核心类
-    多轮对话
     """
 
     def __init__(
@@ -16,25 +16,30 @@ class ChatRolePlay:
         llm: str,
         base_prompt: str,
         name: str,
-        max_input_token=20000,
+        max_output_tokens=256,
+        max_summary_tokens= 500,
+        max_history_tokens=500,
         data_folder_path: str = None,
         data_file_path: str = None,
         data_type="txt",
         embedding_name="openai",
-        top_k=4,
+        top_k=2,
         debug=False,
     ):
         self.client = get_client(llm)  # 采用的LLM实例
         self.model = models[llm]  # 后续对话采用的模型
         self.base_prompt = base_prompt  # 基本prompt
         self.name = name  # 扮演的角色
-        self.max_input_token = max_input_token  # 一次最多输入的token数
+        self.max_output_tokens = max_output_tokens  # 一次最多输入出的token数
+        self.max_summary_tokens = max_summary_tokens
+        self.max_history_tokens = max_history_tokens
         self.chat_history = []  # 聊天记录
         self.chat_summary = []  # 聊天总结
         self.speak_prefix = "「"  # 角色开始说话标识符
         self.speak_suffix = "」"  # 角色结束说话标识符
         self.debug = debug
 
+        # 构建角色知识库
         if data_folder_path or data_file_path:
             self.story_db = KnowledgeDB(
                 data_folder_path,
@@ -47,9 +52,8 @@ class ChatRolePlay:
         else:
             self.story_db = None
 
-        self.base_prompt += f"请记住，你是{self.name}， 不是大语言模型\n\n"
         self.prompt_tokens = count_token(
-            self.base_prompt + HISTORY_PROMPT + STORY_BG_PROMPT
+            self.base_prompt + HISTORY_PROMPT + STORY_BG_PROMPT + NEW_RESPONSE_PROMPT
         )
 
     def chat(self, query: str, user_role="user") -> str:
@@ -62,21 +66,25 @@ class ChatRolePlay:
             str: llm根据用户发送的query给出的回复
         """
         messages = self.organize_messages(query, user_role)
-        ans = self.get_llm_ans(messages=messages)
+        ans = self.get_llm_ans(
+            messages=messages,
+            max_tokens=self.max_output_tokens,
+            temperature=0.8,
+        )
 
         # 更新历史记录
         user_msg = f"{user_role}:{self.speak_prefix}{query}{self.speak_suffix}"
-        llm_msg = f"{self.name}:{self.speak_prefix}{ans}{self.speak_suffix}"
+        # llm_msg = f"{self.name}:{self.speak_prefix}{ans}{self.speak_suffix}"
+        llm_msg = ans
 
-        self.chat_history.append(user_msg)
-        self.chat_history.append(llm_msg)
+        self.chat_history.append({"role": "user", "content": user_msg})
+        self.chat_history.append({"role": "assistant", "content": llm_msg})
 
-        # TODO 根据实际表现决定返回ans还是llm_msg
         return ans
 
     def organize_messages(self, query: str, user_role="user") -> list:
         """
-        将用户发送内容与prompt、聊天记录整合
+        将用户发送内容与prompt、相关情节、聊天记录整合
         并整理为api可接收的格式
 
         Args:
@@ -92,30 +100,37 @@ class ChatRolePlay:
         # TODO 考虑user_role为scene、旁白等的情况
         user_query = f"{user_role}: {self.speak_prefix}{query}{self.speak_suffix}"
 
-        # 刷新聊天记录，确保最终发送的messages在token限制内
-        query_tokens = count_token(user_query)
-        available_tokens = self.max_input_token - self.prompt_tokens - query_tokens
-        self.refresh_history(available_tokens)
+        # 将相关情节整合到待发送消息
+        if self.story_db:
+            # TODO 此处用于RAG的历史记录条数或许可以进一步优化
+            dialogues = ""
+            for msg in self.chat_history[-2:]:
+                dialogues += msg["content"]
+                dialogues += "\n"
+            dialogues += user_query
+            plot = self.story_db.get_related_info(dialogues)
+            sys_prompt += STORY_BG_PROMPT
+            sys_prompt += plot
+
+        # 刷新聊天记录，确保聊天记录和总结在 token 限制内
+        self.refresh_history()
+
+        sys_prompt += NEW_RESPONSE_PROMPT
+
+        # 将对话总结整合到待发送消息
+        if self.chat_summary:
+            sys_prompt += HISTORY_PROMPT
+            sys_prompt += "<history>\n"
+            for summary in self.chat_summary:
+                sys_prompt += summary
+                sys_prompt += "\n"
+            sys_prompt += "</history>\n\n"
+        messages.append({"role": "system", "content": sys_prompt})
 
         # 将聊天记录整合到待发送消息
-        sys_prompt += HISTORY_PROMPT
-        sys_prompt += "<history>\n"
-        for dialogue in self.chat_history:
-            sys_prompt += dialogue
-            sys_prompt += "\n"
-        sys_prompt += "<\history>\n\n"
-
-        # 将故事背景整合到待发送消息
-        if self.story_db:
-            bg = self.story_db.get_related_info(user_query)
-            sys_prompt += STORY_BG_PROMPT
-            sys_prompt += "<story>\n"
-            sys_prompt += bg
-            sys_prompt += "<\story>\n\n"
+        messages.extend(self.chat_history)
 
         # 将新query整合到待发送消息
-        sys_prompt += NEW_RESPONSE_PROMPT
-        messages.append({"role": "system", "content": sys_prompt})
         messages.append({"role": "user", "content": user_query})
 
         if self.debug:
@@ -124,25 +139,23 @@ class ChatRolePlay:
                 for key, value in msg.items():
                     print(f"[{key}]")
                     print(value)
+
+            print(f"\ntokens sent: {count_token(str(messages))}")
             print("---------------------------------------------------------------")
 
         return messages
 
-    def refresh_history(self, available_tokens: int):
+    def refresh_history(self):
         """
-        刷新聊天记录，以确保发送内容在token数量限制内
-        如果超过，则对早期对话进行总结并存储在summaries中
+        刷新聊天记录，以确保聊天记录在token数量限制内
 
-        Args:
-            available_tokens (int): 剩余可输入的token数（除去prompt和新query）
+        如果超过，则对早期对话进行总结并存储在chat_summary中
+
+        chat_summary也满了则抛弃最早的总结
         """
-        while True:
-            tokens = self.count_history_tokens()
-            if tokens <= available_tokens:
-                return
-
-            if len(self.chat_history) < 4:
-                return
+        while self.count_history_tokens() > self.max_history_tokens:
+            if len(self.chat_history) <= 2:
+                break
 
             # 提取早期聊天记录进行总结（每次总结一半）
             split = len(self.chat_history) // 2
@@ -151,24 +164,47 @@ class ChatRolePlay:
 
             ask_sum_prompt = ASK_SUM_PROMPT
             for msg in to_sum_messages:
-                ask_sum_prompt += msg
+                line = msg["content"]
+                if msg["role"] == "user":
+                    ask_sum_prompt += line
+                else:
+                    ask_sum_prompt += f"{self.name}:{line}"
                 ask_sum_prompt += "\n"
             summary = self.get_llm_ans(ask_sum_prompt)
 
             # 刷新聊天记录
-            self.chat_history = [summary] + remain_messages
+            self.chat_summary.append(summary)
+            self.chat_history = remain_messages
+
+        while self.count_summary_tokens() > self.max_summary_tokens:
+            self.chat_summary = self.chat_summary[1:]
 
     def count_history_tokens(self) -> int:
         """计算当前聊天记录的总token数"""
-        return sum(count_token(msg) for msg in self.chat_history)
+        return sum(count_token(str(msg)) for msg in self.chat_history)
 
-    def get_llm_ans(self, query=None, role="user", messages=None) -> str:
+    def count_summary_tokens(self) -> int:
+        """计算当前聊天总结的总token数"""
+        return sum(count_token(str(msg)) for msg in self.chat_summary)
+
+    def get_llm_ans(
+        self,
+        query=None,
+        role="user",
+        messages=None,
+        max_tokens=256,
+        temperature=1.0,
+        # frequency_penalty=0.0,
+    ) -> str:
         """获取llm的回复
 
         Args:
             query (str): 发送的内容
             role (str, optional): user/system/assistant. Defaults to "user".
             messages (list, optional): 发送的消息列表. Defaults to None.
+            max_tokens (int, optional): 生成文本的最大token数. Defaults to 256.
+            temperature (float, optional): 生成内容的随机程度(0.0 to 2.0). Defaults to 1.0.
+            frequency_penalty (float, optional): 对重复内容的惩罚(-2.0 to 2.0). Defaults to 0.0.
 
         Returns:
             str: llm对发送内容的回复
@@ -181,14 +217,25 @@ class ChatRolePlay:
             messages = [{"role": role, "content": query}]
 
         response = self.client.chat.completions.create(
-            model=self.model, messages=messages
+            model=self.model,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=temperature,
         )
 
         return response.choices[0].message.content.strip()
-    
+
     def _clear_history(self):
-        self.chat_history = []
+        self.chat_history.clear()
+        self.chat_summary.clear()
+        gc.collect()
 
     def _display_history(self):
+        if not self.chat_history and not self.chat_summary:
+            print("no chat history yet.")
         for dialogue in self.chat_history:
-            print(dialogue)
+            line = dialogue["content"]
+            if dialogue["role"] == "assistant":
+                print(f"{self.name}:{self.speak_prefix}{line}{self.speak_suffix}")
+            else:
+                print(line)
