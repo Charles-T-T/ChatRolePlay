@@ -1,7 +1,4 @@
 from langchain.vectorstores import DocArrayInMemorySearch
-from langchain.indexes import VectorstoreIndexCreator
-from langchain import embeddings
-
 
 class KnowledgeDB:
     """

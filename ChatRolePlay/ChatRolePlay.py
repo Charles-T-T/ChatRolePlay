@@ -14,10 +14,11 @@ class ChatRolePlay:
     def __init__(
         self,
         llm: str,
-        base_prompt: str,
         name: str,
+        additional_prompt: str = None,
+        book_name: str = None,
         max_output_tokens=256,
-        max_summary_tokens= 500,
+        max_summary_tokens=500,
         max_history_tokens=500,
         data_folder_path: str = None,
         data_file_path: str = None,
@@ -28,7 +29,7 @@ class ChatRolePlay:
     ):
         self.client = get_client(llm)  # 采用的LLM实例
         self.model = models[llm]  # 后续对话采用的模型
-        self.base_prompt = base_prompt  # 基本prompt
+        self.additional_prompt = additional_prompt  # 额外prompt，比如个性化角色背景、人设等
         self.name = name  # 扮演的角色
         self.max_output_tokens = max_output_tokens  # 一次最多输入出的token数
         self.max_summary_tokens = max_summary_tokens
@@ -38,6 +39,12 @@ class ChatRolePlay:
         self.speak_prefix = "「"  # 角色开始说话标识符
         self.speak_suffix = "」"  # 角色结束说话标识符
         self.debug = debug
+
+        self.role_prompt = f"# 你的身份\n"
+        if book_name is not None:
+            self.role_prompt += f"你现在是《{book_name}》中的角色{name}\n"
+        else:
+            self.role_prompt += f"你现在是{name}\n"
 
         # 构建角色知识库
         if data_folder_path or data_file_path:
@@ -52,9 +59,9 @@ class ChatRolePlay:
         else:
             self.story_db = None
 
-        self.prompt_tokens = count_token(
-            self.base_prompt + HISTORY_PROMPT + STORY_BG_PROMPT + NEW_RESPONSE_PROMPT
-        )
+        # self.prompt_tokens = count_token(
+        #     self.base_prompt + HISTORY_PROMPT + STORY_BG_PROMPT + NEW_RESPONSE_PROMPT
+        # )
 
     def chat(self, query: str, user_role="user") -> str:
         """获取llm的回复，并更新聊天记录
@@ -73,18 +80,17 @@ class ChatRolePlay:
         )
 
         # 更新历史记录
-        user_msg = f"{user_role}:{self.speak_prefix}{query}{self.speak_suffix}"
-        # llm_msg = f"{self.name}:{self.speak_prefix}{ans}{self.speak_suffix}"
-        llm_msg = ans
-
+        user_msg = f"{user_role}: {query}"
         self.chat_history.append({"role": "user", "content": user_msg})
-        self.chat_history.append({"role": "assistant", "content": llm_msg})
+        self.chat_history.append({"role": "assistant", "content": ans})
 
-        return ans
+        llm_msg = f"{self.name}:{self.speak_prefix}{ans}{self.speak_suffix}"
+        return llm_msg
 
     def organize_messages(self, query: str, user_role="user") -> list:
         """
-        将用户发送内容与prompt、相关情节、聊天记录整合
+        将用户发送内容与基本prompt、RAG所得相关情节、聊天记录等整合
+
         并整理为api可接收的格式
 
         Args:
@@ -95,10 +101,12 @@ class ChatRolePlay:
             list: 整合后待发送的messages
         """
         messages = []
-        sys_prompt = self.base_prompt
+        sys_prompt = self.role_prompt + BASE_PROMPT
+        if self.additional_prompt:
+            sys_prompt += self.additional_prompt
 
         # TODO 考虑user_role为scene、旁白等的情况
-        user_query = f"{user_role}: {self.speak_prefix}{query}{self.speak_suffix}"
+        user_query = f"{user_role}: {query}"
 
         # 将相关情节整合到待发送消息
         if self.story_db:
@@ -194,7 +202,6 @@ class ChatRolePlay:
         messages=None,
         max_tokens=256,
         temperature=1.0,
-        # frequency_penalty=0.0,
     ) -> str:
         """获取llm的回复
 
