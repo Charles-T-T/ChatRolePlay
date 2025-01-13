@@ -4,3 +4,7 @@ __pycache__/
 # ppt
 *.pptx
 *.ppt
+
+# 提交学校内容
+submit/
+docs/final_report/
