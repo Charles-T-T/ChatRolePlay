@@ -30,7 +30,7 @@
    git clone https://github.com/Charles-T-T/ChatRolePlay.git
    ```
 
-2.  创建并激活环境
+2. 创建并激活环境
 
    ```bash
    conda env create -f environment.yml
