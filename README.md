@@ -59,6 +59,17 @@
 
 2. 在 `notebook` 中的第一个代码单元中添加你的文本数据路径，和要抽取的角色姓名：
 
+   ```python
+   # 选择你要处理的小说，接下来的保存路径都将使用小说名
+   novel_name = "Honglou-full"
+   input_txt_name = f"./novel/{novel_name}.txt"
+   save_folder = f"./extract/{novel_name}"
+   
+   # target_role: 要抽取的人物名称
+   # 支持空字符串(默认前三个)或者 list[str] ，如果出错默认保存第一个
+   target_role = ["黛玉", "宝玉", "宝钗"]
+   ```
+
 3. 运行整个 `notebook` 即可，完成后会显示：
 
    ```bash
