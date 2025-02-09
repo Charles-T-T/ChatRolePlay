@@ -13,7 +13,7 @@ class ChatRolePlay:
 
     def __init__(
         self,
-        llm: str,
+        model: str,
         name: str,
         additional_prompt: str = None,
         book_name: str = None,
@@ -27,15 +27,18 @@ class ChatRolePlay:
         top_k=2,
         debug=False,
     ):
-        self.client = get_client(llm)  # 采用的LLM实例
-        self.model = models[llm]  # 后续对话采用的模型
-        self.additional_prompt = additional_prompt  # 额外prompt，比如个性化角色背景、人设等
+        self.client = get_client(model)  # 采用的LLM实例
+        self.model = model  # 后续对话采用的模型
+        self.additional_prompt = (
+            additional_prompt  # 额外prompt，比如个性化角色背景、人设等
+        )
         self.name = name  # 扮演的角色
         self.max_output_tokens = max_output_tokens  # 一次最多输入出的token数
         self.max_summary_tokens = max_summary_tokens
         self.max_history_tokens = max_history_tokens
         self.chat_history = []  # 聊天记录
         self.chat_summary = []  # 聊天总结
+        self.chat_history_complete = []  # 完整聊天记录，用于展示和debug
         self.speak_prefix = "「"  # 角色开始说话标识符
         self.speak_suffix = "」"  # 角色结束说话标识符
         self.debug = debug
@@ -68,23 +71,39 @@ class ChatRolePlay:
 
         Args:
             query (str): 用户发送的内容
+            user_role (str): 用户扮演的角色. Defaults to "user".
 
         Returns:
             str: llm根据用户发送的query给出的回复
         """
+        print(f"{self.name}:", end="")
+
         messages = self.organize_messages(query, user_role)
         ans = self.get_llm_ans(
             messages=messages,
             max_tokens=self.max_output_tokens,
-            temperature=0.8,
+            temperature=0.7,
+            stream=True
         )
 
-        # 更新历史记录
         user_msg = f"{user_role}: {query}"
-        self.chat_history.append({"role": "user", "content": user_msg})
-        self.chat_history.append({"role": "assistant", "content": ans})
+        llm_msg = ""
 
-        llm_msg = f"{self.name}:{self.speak_prefix}{ans}{self.speak_suffix}"
+        # 流式输出llm的回复，并更新历史记录
+        print(self.speak_prefix, end="")
+        for chunk in ans:
+            if chunk.choices[0].delta.content:
+                chunk_content = chunk.choices[0].delta.content
+                print(chunk_content, end="", flush=True)
+                llm_msg += chunk_content
+        print(self.speak_suffix)
+
+        self.chat_history.append({"role": "user", "content": user_msg})
+        self.chat_history.append({"role": "assistant", "content": llm_msg})
+
+        self.chat_history_complete.append({"role": "user", "content": user_msg})
+        self.chat_history_complete.append({"role": "assistant", "content": llm_msg})
+
         return llm_msg
 
     def organize_messages(self, query: str, user_role="user") -> list:
@@ -202,6 +221,7 @@ class ChatRolePlay:
         messages=None,
         max_tokens=256,
         temperature=1.0,
+        stream=False,
     ) -> str:
         """获取llm的回复
 
@@ -212,9 +232,10 @@ class ChatRolePlay:
             max_tokens (int, optional): 生成文本的最大token数. Defaults to 256.
             temperature (float, optional): 生成内容的随机程度(0.0 to 2.0). Defaults to 1.0.
             frequency_penalty (float, optional): 对重复内容的惩罚(-2.0 to 2.0). Defaults to 0.0.
+            stream (bool, optional): 是否启用流式输出. Defaults to False.
 
         Returns:
-            str: llm对发送内容的回复
+            str|stream: llm对发送内容的回复(根据参数决定是否返回流式输出)
         """
         # TODO 考虑temperature等其他更多参数的选择
         if messages is None:
@@ -228,19 +249,23 @@ class ChatRolePlay:
             messages=messages,
             max_tokens=max_tokens,
             temperature=temperature,
+            stream=stream,
         )
 
-        return response.choices[0].message.content.strip()
+        if stream:
+            return response
+        else:
+            return response.choices[0].message.content.strip()
 
     def _clear_history(self):
         self.chat_history.clear()
         self.chat_summary.clear()
-        gc.collect()
+        self.chat_history_complete.clear()
 
     def _display_history(self):
-        if not self.chat_history and not self.chat_summary:
+        if not self.chat_history_complete:
             print("no chat history yet.")
-        for dialogue in self.chat_history:
+        for dialogue in self.chat_history_complete:
             line = dialogue["content"]
             if dialogue["role"] == "assistant":
                 print(f"{self.name}:{self.speak_prefix}{line}{self.speak_suffix}")
